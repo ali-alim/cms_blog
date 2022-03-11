@@ -5,7 +5,7 @@ import {getPosts} from '../services'
 
 
 
-const Home = ({props}) => {
+const Home = ({posts}) => {
   return (
     <div className="container mx-auto mb-8 px-10">
       <Head>
