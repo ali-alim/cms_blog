@@ -24,8 +24,8 @@ const PostCard = ({ post }) => {
             width="30px"
             className="rounded-full align-middle"
           />
-          <p className="inline align-middle text-lg text-gray-700 ">
-            {post.author.name}
+          <p className="inline align-middle text-lg text-gray-700 ml-1 ">
+             {post.author.name}
           </p>
         </div>
         <div className="font-medium text-gray-700">
