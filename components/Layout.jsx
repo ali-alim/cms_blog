@@ -1,19 +1,11 @@
-import React from 'react'
-import {Header, FeauturedPostCard} from './';
+import React from 'react';
+import Header from './Header';
 
-const Layout = ({ children}) => {
-  return (
-    
-    <>
-    
+const Layout = ({ children }) => (
+  <>
     <Header />
-    {/* {posts.map((post, index) => (
-      <FeauturedPostCard key={index} post={post.node} />
-    ))} */}
-    
     {children}
-    </>
-  )
-}
+  </>
+);
 
-export default Layout
+export default Layout;
