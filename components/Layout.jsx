@@ -1,10 +1,16 @@
 import React from 'react'
-import {Header} from './';
+import {Header, FeauturedPostCard} from './';
 
-const Layout = ({children}) => {
+const Layout = ({ children}) => {
   return (
+    
     <>
+    
     <Header />
+    {/* {posts.map((post, index) => (
+      <FeauturedPostCard key={index} post={post.node} />
+    ))} */}
+    
     {children}
     </>
   )
