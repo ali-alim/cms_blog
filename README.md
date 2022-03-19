@@ -1,4 +1,4 @@
-# GRAPHQL CMS BLOG - deployed on Vercel : [ALICMS](https://alicms.vercel.app)
+# GRAPHQL CMS BLOG - deployed on Vercel : [https://alicms.vercel.app](https://alicms.vercel.app)
 
 ## Description:
 
